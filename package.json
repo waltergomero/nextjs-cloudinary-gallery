@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-cloudinary-gallery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "cloudinary": "^1.41.0",
+    "clsx": "^2.0.0",
+    "compressorjs": "^1.2.1",
+    "next": "14.0.1",
+    "next-cloudinary": "^5.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
