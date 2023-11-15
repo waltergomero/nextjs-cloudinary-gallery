@@ -37,10 +37,8 @@ const UploadPage = () => {
             <img src={image.preview} alt="Image Preview" className="h-96 rounded-lg mt-2 mb-2" />
           ) : (
             <div className="cursor-pointer grid justify-items-center ">
-
                 <HiCloudUpload size={48}/>
                 <h5 className="text-center">Browse your photo</h5>
-
             </div>
           )}
         </label>
