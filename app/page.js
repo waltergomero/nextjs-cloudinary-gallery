@@ -7,6 +7,7 @@ import cloudinary from '@/lib/cloudinary'
 export default async function Home() {
   const results = (await cloudinary.v2.search
     //.expression(`resource_type:image${search ? ` AND tags=${search}` : ""}`)
+    //.expression(`folder:${process.env.NEXT_PUBLIC_CLOUDINARY_PRESET_NAME}/*`)
     .sort_by("created_at", "desc")
     .with_field("tags")
     .max_results(30)
