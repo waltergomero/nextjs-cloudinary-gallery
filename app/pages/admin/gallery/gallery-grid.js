@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 const GalleryGrid = ({images}) => {
   return (
-    <main className="mx-auto max-w-[1960px] p-4">
-    <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
+    <main className="mx-auto max-w-[1960px] p-4 border-2 border-gray-200 rounded-md">
+    <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-">
         
         {images && images?.map((item) =>(
                     <Link

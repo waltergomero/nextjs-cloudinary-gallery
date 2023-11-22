@@ -15,7 +15,7 @@ const CloudinaryUnsignedUploadImage = () => {
               }, 2000);
             }}
             uploadPreset={process.env.NEXT_PUBLIC_CLOUDINARY_PRESET_NAME}
-            className='text-black bg-orange-600 hover:bg-blue-800
+            className='text-white bg-orange-600 hover:bg-orange-700
                           focus:outline-none font-medium text-sm rounded-lg px-5 py-2.5
                           text-center mr-5'
             >
